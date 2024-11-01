@@ -1,0 +1,13 @@
+.place__webcite {
+    display: flex; 
+    flex-direction: column; 
+    justify-content: flex-end; 
+    align-items: flex-start;
+    grid-area: web;
+}
+
+@media screen and (max-width: 767px) {
+    .place__webcite{
+      margin-bottom: 32px;
+    }
+}
